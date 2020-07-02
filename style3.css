@@ -1,0 +1,23 @@
+body{background-image: url('back4.jpg'); background-size: cover; background-repeat: no-repeat;}
+nav{height: 45%;}
+.menu { height: 30%;}
+.content5{ height: 20%;
+			font-size: 100px; font-weight: bold; text-align: center; color: #6D3723;}
+#picture {height: 175%;}
+
+.radio { height: 300px; width: 300px; text-align: center; }
+[id^="share"] {float: left; margin: 100px 0 0 150px; border-radius: 200px; background-size: cover;}
+#share1{background-image: url('a.jpg');}
+#share2{background-image: url('b.png');}
+#share3{background-image: url('mi.jpg');}
+#share4{background-image: url('cm.jpg'); }
+#share5{background-image: url('i.jpg');}
+#share6{background-image: url('cc.jpg');}
+#share7{margin-bottom: 50px; background-image: url('more.jpg');
+			 background-size: cover; background-repeat: no-repeat; cursor: pointer;}
+
+
+.hover{display: none; padding-top: 130px; color: white; 
+		text-shadow: 4px 4px 12px black;}
+[id^="share"]:hover >.hover{display: block; font-size: 20px; font-weight: bold;}
+#share7:hover >.hover{font-size: 60px; font-weight: bold;  padding-top: 120px;}
